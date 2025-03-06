@@ -1,0 +1,15 @@
+.cursor {
+  background-color: var(--accent-color);
+  opacity: 0.6;
+  border-radius: 50%;
+  position: fixed;
+  pointer-events: none;
+  z-index: 9999;
+  mix-blend-mode: difference;
+}
+
+@media (max-width: 768px) {
+  .cursor {
+    display: none;
+  }
+} 
