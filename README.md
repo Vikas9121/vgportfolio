@@ -1,3 +1,42 @@
+# Vikas Gundu - Portfolio Website
+
+A modern, responsive portfolio website showcasing my skills, projects, and experience as a Software Engineer specializing in full-stack development, cloud computing, and AI-driven solutions.
+
+## 🚀 Live Demo
+
+[View Live Portfolio](https://vgportfolio.vercel.app/)
+
+## ✨ Features
+
+- **Responsive Design**: Fully responsive layout that works on all devices
+- **Modern UI**: Clean, professional interface with smooth animations
+- **Interactive Sections**: 
+  - Home with animated introduction
+  - About section with skills visualization
+  - Projects showcase with detailed descriptions
+  - Resume with downloadable PDF option
+  - Contact form for easy communication
+- **Performance Optimized**: Fast loading times and smooth scrolling
+- **Custom Cursor**: Enhanced user experience with a custom cursor
+- **Accessibility**: Designed with accessibility in mind
+
+## 🛠️ Technologies Used
+
+- **Frontend**: 
+  - React.js
+  - CSS3 with custom animations
+  - Framer Motion for animations
+  - React Icons
+- **Deployment**: 
+  - Vercel for hosting
+  - GitHub for version control
+- **Tools**:
+  - VS Code
+  - Git & GitHub
+  - npm
+
+## 📂 Project Structure
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
