@@ -4,7 +4,7 @@ A modern, responsive portfolio website showcasing my skills, projects, and exper
 
 ## 🚀 Live Demo
 
-[View Live Portfolio](https://vgportfolio.vercel.app/)
+[View Live Portfolio](https://www.vikasgundu.com/)
 
 ## ✨ Features
 
