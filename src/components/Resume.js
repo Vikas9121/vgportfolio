@@ -20,38 +20,10 @@ const Resume = () => {
         "Optimized backend performance using Gunicorn and Nginx, ensuring high availability and scalability"
       ]
     },
-    {
-      id: 2,
-      title: "Software Engineer Associate",
-      company: "EsparkBliz",
-      location: "India",
-      period: "May 2020 – August 2022",
-      responsibilities: [
-        "Engineered backend systems using Python, Django, and REST APIs, increasing system scalability and robustness",
-        "Modernized user interfaces with React.js and Vue.js, enhancing engagement and usability",
-        "Reduced database query times by 30% through PostgreSQL and MySQL optimization",
-        "Integrated third-party APIs to extend functionality and support real-time features",
-        "Established CI/CD pipelines (Jenkins, GitLab CI), enabling faster and more reliable software releases",
-        "Deployed and maintained applications using Docker, ensuring consistent environments across development cycles",
-        "Mentored junior developers to improve team capabilities and adherence to coding best practices",
-        "Gained hands-on experience with Agile methodologies, participating in daily stand-ups, sprint planning, and code reviews",
-        "Assisted in database design and optimization, working with SQL and NoSQL technologies to improve query performance"
-      ]
-    },
-    {
-      id: 3,
-      title: "Software Engineer Internship",
-      company: "Reliance Industries Limited",
-      location: "India",
-      period: "Dec 2019 – Apr 2020",
-      responsibilities: [
-        "Developed and optimized Python-based applications, contributing to the design and implementation of software solutions that improved system performance and scalability",
-        "Collaborated with cross-functional teams to deliver key features for enterprise-level projects, ensuring timely delivery and adherence to high-quality standards",
-        "Created and maintained RESTful APIs to streamline communication between backend systems and front-end applications",
-        "Utilized libraries and frameworks like Flask/Django to develop efficient web applications and services",
-        "Implemented unit tests and debugging processes to ensure robust and reliable code, reducing production defects by 35%"
-      ]
-    }
+    
+    
+    
+    
   ];
 
   const education = [
@@ -73,14 +45,17 @@ const Resume = () => {
     }
   ];
 
+  // Add certifications array here
   const certifications = [
     {
       id: 1,
-      name: "AWS Solution Architect",
+      name: "AWS Certified Solutions Architect",
       issuer: "Amazon Web Services",
-      date: "2023",
-      credentialId: ""
-    }
+      date: " Pursuing",
+      
+    },
+    
+    // Add more certifications as needed
   ];
 
   // Animation variants

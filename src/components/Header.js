@@ -48,16 +48,9 @@ const Header = () => {
   return (
     <header className={`header ${isScrolled ? 'scrolled' : ''}`}>
       <div className="header-container">
-        <motion.div 
-          className="logo"
-          initial={{ opacity: 0, x: -20 }}
-          animate={{ opacity: 1, x: 0 }}
-          transition={{ duration: 0.5 }}
-        >
-          <a href="#home" onClick={(e) => { e.preventDefault(); scrollToSection('home'); }}>
-            <span className="logo-text">Vikas Gundu</span>
-          </a>
-        </motion.div>
+        <a href="#home" className="logo" onClick={(e) => { e.preventDefault(); scrollToSection('home'); }}>
+          <span className="logo-text">VG</span>
+        </a>
 
         <div className={`mobile-menu-toggle ${menuOpen ? 'active' : ''}`} onClick={() => setMenuOpen(!menuOpen)}>
           <span></span>

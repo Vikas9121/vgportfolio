@@ -35,11 +35,11 @@ const About = () => {
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.5, delay: 0.2 }}
         >
-          <p>I'm a results-driven Software Engineer with 3+ years of experience delivering scalable, high-performance systems and solving complex technical challenges. I specialize in full-stack development, cloud computing, and AI-driven solutions.</p>
+          <p>I am a recent graduate with a Master's degree in Cybersecurity from Webster University and a Bachelor's degree in Computer Science from Osmania University. With a strong foundation in full-stack development, cloud computing, and AI-driven solutions, I am passionate about building innovative and scalable software systems.</p>
           
-          <p>With a Master's in Cybersecurity from Webster University and experience at companies like EsparkBliz and Reliance Industries, I've developed expertise in creating impactful products using Python, Django, React.js, and AWS.</p>
+          <p>During my academic journey, I developed an AI-Powered Inventory Management System using Python, Django, and React.js, which automated inventory tracking and reduced manual effort by 80%. I also gained hands-on experience with AWS, RESTful APIs, and CI/CD pipelines, and I am eager to apply these skills in a professional setting.</p>
           
-          <p>I'm passionate about innovation and continuous improvement, always looking for ways to optimize performance and enhance user experience.</p>
+          <p>As a quick learner and problem solver, I thrive in collaborative environments and am excited to contribute to impactful projects. I am now seeking opportunities to grow as a Software Engineer and make a meaningful impact in the tech industry.</p>
           
           <div className="experience-timeline">
             <div className="timeline-item">
@@ -49,19 +49,9 @@ const About = () => {
               <p className="timeline-description">Built an AI-powered system using TensorFlow, OpenCV, and Django REST Framework, automating inventory tracking and reducing manual effort by 80%.</p>
             </div>
             
-            <div className="timeline-item">
-              <div className="timeline-date">May 2020 - August 2022</div>
-              <h4 className="timeline-title">Software Engineer Associate</h4>
-              <div className="timeline-company">EsparkBliz, India</div>
-              <p className="timeline-description">Engineered backend systems using Python, Django, and REST APIs, increasing system scalability and robustness.</p>
-            </div>
+           
             
-            <div className="timeline-item">
-              <div className="timeline-date">Dec 2019 - Apr 2020</div>
-              <h4 className="timeline-title">Software Engineer Internship</h4>
-              <div className="timeline-company">Reliance Industries Limited, India</div>
-              <p className="timeline-description">Developed and optimized Python-based applications, contributing to the design and implementation of software solutions.</p>
-            </div>
+            
           </div>
         </motion.div>
 
