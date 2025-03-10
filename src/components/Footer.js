@@ -36,14 +36,13 @@ const Footer = () => {
                 >
                   <i className="fab fa-github"></i>
                 </motion.a>
-                <motion.a 
-                  href="https://linkedin.com/in/vikasmanitejh" 
+                <a 
+                  href="https://www.linkedin.com/in/vikasmanitejh/" 
                   target="_blank" 
                   rel="noopener noreferrer"
-                  whileHover={{ y: -5 }}
                 >
                   <i className="fab fa-linkedin"></i>
-                </motion.a>
+                </a>
                 <motion.a 
                   href="mailto:vikkasmanitejh@gmail.com" 
                   whileHover={{ y: -5 }}

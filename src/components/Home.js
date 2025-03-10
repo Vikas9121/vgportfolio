@@ -76,7 +76,7 @@ const Home = () => {
             <a href="https://github.com/Vikas9121" target="_blank" rel="noopener noreferrer">
               <FaGithub />
             </a>
-            <a href="https://linkedin.com/in/vikas-gundu" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/vikasmanitejh/" target="_blank" rel="noopener noreferrer">
               <FaLinkedin />
             </a>
             <a href="mailto:vikkasmanitejh@gmail.com">

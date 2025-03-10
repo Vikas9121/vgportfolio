@@ -8,22 +8,21 @@ const Resume = () => {
   const workExperience = [
     {
       id: 1,
-      title: "AI-Powered Inventory Management System",
-      company: "Webster University",
-      location: "Webster Grooves, MO",
-      period: "Jan 2024 – May 2024",
+      title: "Associate Software Engineer",
+      company: "VIB Technologies",
+      location: "Pune, India",
+      period: "Mar 2020 - Aug 2022",
       responsibilities: [
-        "Built an AI-powered system using TensorFlow, OpenCV, and Django REST Framework, automating inventory tracking and reducing manual effort by 80%",
-        "Developed the frontend using React.js, enabling real-time inventory updates and an intuitive user interface",
-        "Integrated AWS S3 for image data storage and deployed the application on AWS EC2 for scalable cloud hosting",
-        "Designed a PostgreSQL database and exposed RESTful APIs for seamless communication between frontend and backend",
-        "Optimized backend performance using Gunicorn and Nginx, ensuring high availability and scalability"
+        "Designed, developed, and maintained Python-based back-end services using frameworks like Flask and FastAPI, ensuring robust and scalable APIs for front-end integration",
+        "Built dynamic and responsive user interfaces using React.js and Vue.js, delivering seamless user experiences across web applications",
+        "Developed RESTful APIs and microservices to facilitate communication between front-end and back-end systems, enabling efficient data exchange and functionality",
+        "Collaborated with product managers, designers, and QA engineers to gather requirements, design solutions, and deliver features aligned with business goals",
+        "Optimized application performance by identifying and resolving bottlenecks, improving system efficiency by 25%",
+        "Automated repetitive tasks and workflows using Python scripting, reducing manual effort and improving operational efficiency",
+        "Deployed applications on AWS cloud platform, utilizing services like EC2, S3, and Lambda for scalable and cost-effective solutions",
+        "Conducted code reviews and mentored junior developers, fostering a culture of knowledge sharing and best practices in software development"
       ]
-    },
-    
-    
-    
-    
+    }
   ];
 
   const education = [
@@ -33,7 +32,7 @@ const Resume = () => {
       institution: "Webster University",
       location: "Webster Grooves, Missouri",
       period: "Oct. 2022 – May 2024",
-      description: ""
+      description: "Notable Project: AI-Powered Inventory Management System\n• Built an AI-powered system using TensorFlow, OpenCV, and Django REST Framework, automating inventory tracking and reducing manual effort by 80%\n• Developed the frontend using React.js, enabling real-time inventory updates and an intuitive user interface\n• Integrated AWS S3 for image data storage and deployed the application on AWS EC2 for scalable cloud hosting\n• Designed a PostgreSQL database and exposed RESTful APIs for seamless communication between frontend and backend\n• Optimized backend performance using Gunicorn and Nginx, ensuring high availability and scalability"
     },
     {
       id: 2,

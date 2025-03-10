@@ -116,7 +116,7 @@ const About = () => {
             <div className="skills-list">
               <div className="skill-item"><SiDjango /> Django</div>
               <div className="skill-item"><FaReact /> React.js</div>
-              <div className="skill-item"><SiFlask /> Flask API</div>
+              <div className="skill-item"><SiFlask /> REST API</div>
               <div className="skill-item"><SiTensorflow /> TensorFlow</div>
               <div className="skill-item">OpenCV</div>
             </div>
@@ -131,10 +131,10 @@ const About = () => {
             <h3>Cloud & DevOps</h3>
             <div className="skills-list">
               <div className="skill-item"><FaAws /> AWS</div>
-              <div className="skill-item">Azure</div>
+              <div className="skill-item">AWS AMPLIFY</div>
               <div className="skill-item"><FaDocker /> Docker</div>
               <div className="skill-item">Jenkins</div>
-              <div className="skill-item">GitLab CI</div>
+              <div className="skill-item">GitHub</div>
             </div>
           </motion.div>
 

@@ -20,7 +20,7 @@ const Projects = () => {
       id: 1,
       title: "AI-Powered Inventory Management System",
       description: "An intelligent inventory management system built with AI capabilities for automated tracking and real-time updates. Designed to make inventory management more efficient and reduce manual effort by 80%.",
-      image: "https://placehold.co/800x400/3498db/ffffff?text=Inventory+Management+System",
+      image: "https://placehold.co/800x450/3498db/ffffff?text=IMS+Project",
       technologies: ["React", "Django", "TensorFlow", "OpenCV", "AWS", "PostgreSQL"],
       liveLink: "https://www.ims-dashboard.com",
       githubLink: "https://github.com/Vikas9121/IMS",
@@ -184,18 +184,6 @@ export default InventoryDashboard;`,
           caption: "Advanced analytics showing stock movement patterns and predictions"
         }
       ]
-    },
-    {
-      id: 2,
-      title: "Portfolio Website",
-      description: "A modern portfolio website built with React, featuring a responsive design and contact form integration with EmailJS.",
-      image: "https://placehold.co/800x400/3498db/ffffff?text=Portfolio+Website",
-      technologies: ["React", "CSS3", "EmailJS", "Framer Motion"],
-      liveLink: "#",
-      githubLink: "https://github.com/Vikas9121/portfolio-website",
-      featured: false,
-      role: "Frontend Developer",
-      duration: "May 2024"
     }
   ];
 
