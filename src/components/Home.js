@@ -2,8 +2,9 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
 import '../styles/Home.css';
+
 // Use the public folder path - this starts from the root URL
-const headshot = "/images/Vikas_Gundu.png";  // Path to your image in public/images
+const profileImage = "/images/Vikas_Gundu.png";  // Path to your image in public/images
 
 const Home = () => {
   return (
@@ -11,17 +12,28 @@ const Home = () => {
       <div className="home-content">
         <motion.div 
           className="headshot-container"
-          initial={{ opacity: 0, scale: 0.8 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 0.8 }}
+          initial={{ opacity: 0, scale: 0.8, y: 20 }}
+          animate={{ opacity: 1, scale: 1, y: 0 }}
+          transition={{ 
+            duration: 0.8, 
+            type: "spring",
+            stiffness: 100
+          }}
         >
-          <div className="headshot-wrapper">
+          <motion.div 
+            className="headshot-wrapper"
+            whileHover={{ 
+              boxShadow: "0 15px 30px rgba(52, 152, 219, 0.5)",
+              transform: "translateY(-10px)"
+            }}
+            transition={{ duration: 0.3 }}
+          >
             <img 
-              src={headshot}
+              src={profileImage}
               alt="Vikas Gundu" 
               className="headshot" 
             />
-          </div>
+          </motion.div>
         </motion.div>
         
         <motion.div 

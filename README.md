@@ -13,20 +13,25 @@ A modern, responsive portfolio website showcasing my skills, projects, and exper
 - **Interactive Sections**: 
   - Home with animated introduction
   - About section with skills visualization
-  - Projects showcase with detailed descriptions
-  - Resume with downloadable PDF option
-  - Contact form for easy communication
+  - Projects showcase with detailed descriptions and 3D image carousel
+  - Resume with work experience timeline and education details
+  - Contact form with EmailJS integration
 - **Performance Optimized**: Fast loading times and smooth scrolling
-- **Custom Cursor**: Enhanced user experience with a custom cursor
-- **Accessibility**: Designed with accessibility in mind
+- **Modern Image Showcase**: Interactive 3D carousel for project screenshots
+- **Featured Project Highlighting**: Special styling for featured projects
 
 ## 🛠️ Technologies Used
 
 - **Frontend**: 
   - React.js
   - CSS3 with custom animations
-  - Framer Motion for animations
+  - Framer Motion for advanced animations and transitions
   - React Icons
+  - EmailJS for contact form
+- **Project Showcase**:
+  - Interactive image carousel with 3D effects
+  - Thumbnail navigation
+  - Smooth transitions between images
 - **Deployment**: 
   - Vercel for hosting
   - GitHub for version control
@@ -35,7 +40,25 @@ A modern, responsive portfolio website showcasing my skills, projects, and exper
   - Git & GitHub
   - npm
 
+## 📝 Recent Updates
+
+- **Experience Section**: Added VIB Technologies work experience (Mar 2020 - Aug 2022)
+- **Project Showcase**: Enhanced with modern 3D image carousel and thumbnail navigation
+- **Social Links**: Updated LinkedIn URL to current profile
+- **Project Cards**: Improved styling with featured project highlighting
+- **Image Display**: Optimized for better visibility of project screenshots
+- **Login Page**: Added as the main cover image for the IMS project
+- **Styling Improvements**: Enhanced animations and visual effects throughout
+
 ## 📂 Project Structure
+
+- **Home**: Introduction with profile image and social links
+- **About**: Personal bio, skills, and experience timeline
+- **Projects**: Showcase of projects with detailed descriptions
+  - Featured project: AI-Powered Inventory Management System
+  - Modern image carousel with 3D effects
+- **Resume**: Detailed work experience, education, and certifications
+- **Contact**: Contact form with social media links
 
 # Getting Started with Create React App
 

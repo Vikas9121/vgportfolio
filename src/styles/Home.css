@@ -33,7 +33,7 @@
 
 /* Headshot styling */
 .headshot-container {
-  flex: 0 0 300px;
+  flex: 0 0 350px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -48,6 +48,7 @@
   background: linear-gradient(145deg, #3498db, #2ecc71) border-box;
   position: relative;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
 }
 
 .headshot {
